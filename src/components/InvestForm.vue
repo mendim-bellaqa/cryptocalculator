@@ -14,21 +14,138 @@ import SupportIcon from './icons/IconSupport.vue'
     <div class="flex items-center justify-center">
       <span class="text-[#64748B]">Future Invest</span>
       <div class="cursor-pointer border rounded-[4px]">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#64748B]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-        </svg>
       </div>
     </div>
 
-    <div class="mt-6">
+    <div class="mt-6 ">
       <div class="font-semibold">How much would you like to invest?</div>
-      <div><input class="mt-1 w-full rounded-[4px] border border-[#A0ABBB] p-2" value="" type="text" placeholder="Write the invest here" /></div>
-      <div class="flex justify-center mt-5">
+      <div><input class="mt-1  w-full flex  rounded-[4px] border border-[#A0ABBB] p-2" value="" type="text" placeholder="Write the invest here" /></div>
+      <div>
+        <div class="flex items-stretch justify-around mt-5">
         <div class="mt-[14px] cursor-pointer truncate rounded-[4px] border border-[#E7EAEE] p-3 text-[#191D23]">$10</div>
         <div class="mt-[14px] cursor-pointer truncate rounded-[4px] border border-[#E7EAEE] p-3 text-[#191D23]">$15</div>
         <div class="mt-[14px] cursor-pointer truncate rounded-[4px] border border-green-700 p-3 text-[#191D23]">$20</div>
         <div class="mt-[14px] cursor-pointer truncate rounded-[4px] border border-[#E7EAEE] p-3 text-[#191D23]">$50</div>
       </div>
+      </div>
+
+
+      <!-- component -->
+<!-- animation -->
+<section class="mt-10 @media (min-width: 640px) flex md:flex-row items-center justify-around bg-500 flex-wrap sm:flex-col">
+
+<!-- scale -->
+<div class="h-32 w-32 relative cursor-pointer mb-5">
+  <div class="absolute inset-0 bg-green opacity-25 rounded-lg shadow-2xl"></div>
+    <div class="absolute inset-0 transform  hover:scale-75 transition duration-300">
+      <div class="h-full w-full bg-white rounded-lg shadow-2xl">
+      <div class="flex items-center justify-center text-5xl">
+        <div class="mt-5">
+          x5
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- roatate and scale -->
+<div class="h-32 w-32 relative cursor-pointer mb-5">
+  <div class="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
+  <div class="absolute inset-0 transform hover:rotate-90 hover:scale-75 transition duration-300">
+    <div class="h-full w-full bg-white rounded-lg shadow-2xl">
+      <div class="flex items-center justify-center text-5xl">
+        <div class="mt-5">
+          x10
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- rotate -->
+<div class="h-32 w-32 relative cursor-pointer mb-5">
+  <div class="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
+  <div class="absolute inset-0 transform  hover:rotate-45 transition duration-300">
+    <div class="h-full w-full bg-white rounded-lg shadow-2xl">
+      <div class="flex items-center justify-center text-5xl">
+        <div class="mt-5">
+          x15
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- rotate minus -->
+<div class="h-32 w-32 relative cursor-pointer mb-5">
+  <div class="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
+  <div class="absolute inset-0 transform  hover:-rotate-45 transition duration-300">
+    <div class="h-full w-full bg-white rounded-lg shadow-2xl">
+      <div class="flex items-center justify-center text-5xl">
+        <div class="mt-5">
+          x20
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Origin -->
+<div class="h-32 w-32 relative cursor-pointer mb-5">
+  <div class="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
+  <div class="absolute inset-0 transform origin-left hover:-rotate-45 transition duration-300">
+    <div class="h-full w-full bg-white rounded-lg shadow-2xl">
+      <div class="flex items-center justify-center text-5xl">
+        <div class="mt-5">
+          x25
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- translate -->
+<div class="h-32 w-32 relative cursor-pointer mb-5">
+  <div class="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
+  <div class="absolute inset-0 transform hover:-translate-x-10 transition duration-300">
+    <div class="h-full w-full bg-white rounded-lg shadow-2xl">
+      <div class="flex items-center justify-center text-5xl">
+        <div class="mt-5">
+          x30
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="h-32 w-32 relative cursor-pointer mb-5">
+  <div class="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
+  <div class="absolute inset-0 transform  hover:scale-75 transition duration-300">
+    <div class="h-full w-full bg-white rounded-lg shadow-2xl">
+      <div class="flex items-center justify-center text-5xl">
+        <div class="mt-5">
+          x50
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- skew -->
+<div class="h-32 w-32 relative cursor-pointer mb-5">
+  <div class="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
+  <div class="absolute inset-0 transform hover:skew-y-12 transition duration-300">
+    <div class="h-full w-full bg-white rounded-lg shadow-2xl">
+      <div class="flex items-center justify-center text-5xl">
+        <div class="mt-5">
+          x125
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</section>
 
 
       <div class="font-semibold mt-5">Entry price</div>

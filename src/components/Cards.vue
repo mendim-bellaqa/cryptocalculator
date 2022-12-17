@@ -10,7 +10,7 @@
             Tecnologies / Frameworks
             </h2>
             <p class="text-white leading-relaxed font-light text-xl mx-auto pb-2">
-            My favorite tecnologies!
+              About me !
             </p>
         </header>
     </div>
