@@ -7,7 +7,7 @@
     <div class="container xl:max-w-6xl mx-auto px-4">
         <header class="text-center mx-auto mt-10">
             <h2 class="text-2xl leading-normal mb-2 font-bold text-white">
-            Tecnologies / Frameworks
+              Let's play
             </h2>
             <p class="text-white leading-relaxed font-light text-xl mx-auto pb-2">
               About me !
@@ -21,73 +21,15 @@
           class="w-full bg-brown-500 rounded-lg sahdow-lg p-12 flex flex-col justify-center items-center"
         >
           <div class="mb-8">
-            <div class="radial-progress bg-accent text-accent-content border-4 border-accent" style="--size:7rem; --value: 70">70%</div>
+            <div class="radial-progress bg-accent text-accent-content border-4 border-accent" style="--size:7rem; --value: 13">13%</div>
           </div>
           <div class="text-center">
-            <p class="text-xl text-white font-bold mb-2">BTC</p>
+            <p class="text-xl text-white font-bold mb-2">Goal</p>
             <p class="text-base text-gray-400 font-normal">________________________________________</p>
           </div>
         </div>
 
-        <div
-          class="w-full bg-brown-500 rounded-lg sahdow-lg p-12 flex flex-col justify-center items-center"
-        >
-          <div class="mb-8">
-            <div class="radial-progress bg-accent text-accent-content border-4 border-accent" style="--size:7rem; --value: 90">90%</div>
-          </div>
-          <div class="text-center">
-            <p class="text-xl text-white font-bold mb-2">ETH</p>
-            <p class="text-base text-gray-400 font-normal">________________________________________</p>
-          </div>
-        </div>
 
-        <div
-          class="w-full bg-brown-500 rounded-lg sahdow-lg p-12 flex flex-col justify-center items-center"
-        >
-          <div class="mb-8">
-            <div class="radial-progress bg-accent text-accent-content border-4 border-accent" style="--size:7rem; --value: 80">80%</div>
-          </div>
-          <div class="text-center">
-            <p class="text-xl text-white font-bold mb-2">XRP</p>
-            <p class="text-base text-gray-400 font-normal">________________________________________</p>
-          </div>
-        </div>
-
-        <div
-          class="w-full bg-brown-500 rounded-lg sahdow-lg p-12 flex flex-col justify-center items-center"
-        >
-          <div class="mb-8">
-            <div class="radial-progress bg-accent text-accent-content border-4 border-accent" style="--size:7rem; --value: 60">60%</div>
-          </div>
-          <div class="text-center">
-            <p class="text-xl text-white font-bold mb-2">MATIC</p>
-            <p class="text-base text-gray-400 font-normal">________________________________________</p>
-          </div>
-        </div>
-
-        <div
-          class="w-full bg-brown-500 rounded-lg sahdow-lg p-12 flex flex-col justify-center items-center"
-        >
-          <div class="mb-8">
-            <div class="radial-progress bg-accent text-accent-content border-4 border-accent" style="--size:7rem; --value: 70">70%</div>
-          </div>
-          <div class="text-center">
-            <p class="text-xl text-white font-bold mb-2">OP</p>
-            <p class="text-base text-gray-400 font-normal">________________________________________</p>
-          </div>
-        </div>
-        
-        <div
-          class="w-full bg-brown-500 rounded-lg sahdow-lg p-12 flex flex-col justify-center items-center"
-        >
-          <div class="mb-8">
-            <div class="radial-progress bg-accent text-accent-content border-4 border-accent" style="--size:7rem; --value: 85">85%</div>
-          </div>
-          <div class="text-center">
-            <p class="text-xl text-white font-bold mb-2">ALGO</p>
-            <p class="text-base text-gray-400 font-normal">________________________________________</p>
-          </div>
-        </div>
       </div>
     </section>
   </div>

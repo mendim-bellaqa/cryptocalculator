@@ -3,14 +3,55 @@ defineProps({
   msg: {
     type: String,
     required: true
+  },
+
+  data() {
+  return {
+    lastLogin: null
   }
+},
+
+// in a method
+login() {
+  this.lastLogin = new Date()
+}
 })
-</script>
+</script> 
 
 <template>
 <div class="wrapper">
+  <!-- component -->
+<div class="w-3/4 mx-auto mt-10">
+  <div class="w-full shadow-2xl subpixel-antialiased rounded h-64 bg-black border-black mx-auto">
+    <div class="flex items-center h-6 rounded-t bg-gray-100 border-b border-gray-500 text-center text-black" id="headerTerminal">
+      <div class="flex ml-2 items-center text-center border-red-900 bg-red-500 shadow-inner rounded-full w-3 h-3" id="closebtn">
+      </div>
+      <div class="ml-2 border-yellow-900 bg-yellow-500 shadow-inner rounded-full w-3 h-3" id="minbtn">
+      </div>
+      <div class="ml-2 border-green-900 bg-green-500 shadow-inner rounded-full w-3 h-3" id="maxbtn">
+      </div>
+      <div class="mx-auto pr-16" id="terminaltitle">
+        <p class="text-center text-sm">Terminal</p>
+      </div>
+
+    </div>
+    <div class="pl-1 pt-1 h-auto  text-green-200 font-mono text-xs bg-black" id="console">
+
+      <p class="pb-1">Hello Monz, today is the day...</p>
+      <p class="pb-1">Before you enter check:</p>
+      <p class="pb-1 text-center">Order flow</p>
+      <p class="pb-1 text-center">Order block</p>
+      <p class="pb-1 text-center">The risk</p>
+      <p class="pb-1 text-center">...</p>
+      <p class="pb-1 text-center">Focus</p>
+      <p class="pb-1 text-center">...</p>
+      <p class="pb-1 text-center">...</p>
+    </div>
+  </div> 
+</div>
       <!-- component -->
       <div class="flex flex-col">
+        <div></div>
         <h2 class="mb-4 text-2xl text-center mt-5 font-bold">Crypto dashboard</h2>
 
         <div class="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
